@@ -1,0 +1,39 @@
+{
+  "name": "publicationback",
+  "version": "1.0.0",
+  "description": "Rest APIs implementation for Publication Management Portal",
+  "main": "server.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shrest4647/publicationBack.git"
+  },
+  "keywords": [
+    "Rest",
+    "API",
+    "implementation",
+    "Software",
+    "Engineering",
+    "Project"
+  ],
+  "author": "Sunil Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shrest4647/publicationBack/issues"
+  },
+  "homepage": "https://github.com/Shrest4647/publicationBack#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
